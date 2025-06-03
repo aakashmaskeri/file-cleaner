@@ -116,8 +116,8 @@ class FileCleaner:
     
     def kickoff(self):
         self.inputs = {
-            'target_folder' : os.path.expanduser("~/ITCS/Senior Summit/Multi Agent Systems With CrewAI/TestFolder/target_folder"),
-            'standard_folder' : os.path.expanduser("~/ITCS/Senior Summit/Multi Agent Systems With CrewAI/TestFolder/standard_folder")
+            'target_folder' : os.path.expanduser("~/ITCS/Senior Summit/FileCleaner/TestFolder/target_folder"),
+            'standard_folder' : os.path.expanduser("~/ITCS/Senior Summit/FileCleaner/TestFolder/standard_folder")
         }
 
         return self.file_cleaner_crew.kickoff(inputs = self.inputs)
