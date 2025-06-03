@@ -1,0 +1,4 @@
+Project: Athena Initiative
+Completion Date: 2023-12-05
+Summary: A high-level overview of objectives met and outcomes.
+Tags: summary, completed, internal
